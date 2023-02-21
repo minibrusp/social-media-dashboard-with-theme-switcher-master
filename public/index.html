@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body class="font-body bg-neutral-light-white dark:bg-neutral-dark-verydarkblue-bg">
+<div class="bg-neutral-light-verypaleblue dark:bg-[#20222F] w-full h-2/5 absolute rounded-b-3xl -z-10"></div>
+  <main class="mx-6 lg:max-w-[1110px] lg:mx-auto">
+    <header class="pt-10 sm:pb-4 lg:mb-4">
+      <nav class="sm:flex sm:justify-center sm:items-center">
+        <div class="pb-[1.5rem] border-b border-neutral-light-verydarkblue dark:border-neutral-dark-desaturatedblue-dark sm:w-full sm:border-none">
+          <h1 class="text-[1.5rem] text-neutral-light-verydarkblue dark:text-neutral-dark-white  font-bold">Social Media Dashboard</h1>
+          <p class="text-[0.85rem] tracking-[0.03125rem] text-neutral-light-grayishblue-dark dark:text-neutral-dark-desaturatedblue-normal font-bold">Total Followers: <span class="total-followers">23004</span></p>
+        </div>
+
+
+        <div class="w-full pt-4 pb-6 sm:flex sm:justify-end lg:mr-px">
+
+          <label class="text-neutral-light-grayishblue-dark dark:text-neutral-dark-desaturatedblue-normal hover:dark:text-neutral-dark-white relative inline-flex items-center w-full sm:w-auto flex-row-reverse justify-between sm:justify-start sm:gap-4">
+            <input type="checkbox" id="theme-checkbox" value="" class="sr-only peer">
+            <div class="relative w-14 h-6 bg-toggle-light rounded-full peer after:translate-x-[1.7rem] peer-checked:after:translate-x-0 peer-checked:after:bg-neutral-dark-verydarkblue-bg peer-checked:after:border-neutral-dark-verydarkblue-bg after:content-[''] after:absolute after:top-[2px] after:left-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gradient-to-r peer-checked:from-toggle-dark-from peer-checked:to-toggle-dark-to hover:bg-gradient-to-r hover:from-toggle-dark-from hover:to-toggle-dark-to dark:hover:after:bg-neutral-dark-desaturatedblue-dark cursor-pointer"></div>
+            <span class="inline-block text-[0.85rem] tracking-[0.03125rem] font-bold cursor-pointer">Dark Mode</span>
+          </label>
+
+        </div>
+
+      </nav>
+    </header>
+
+    <section>
+      <header class="mb-12 sm:grid sm:gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="card card-after relative after:bg-primary-facebook">
+          <p class="flex justify-center items-center gap-2 mb-4">
+            <img src="./images/icon-facebook.svg" alt="icon-facebook" class="social-icons">
+            <span class="text-neutral-light-grayishblue-dark font-bold text-xs dark:text-neutral-dark-desaturatedblue-normal">@nathanf</span>
+          </p>
+          <strong class="social-followers text-neutral-light-verydarkblue font-bold text-[3.5rem] block leading-[4rem] dark:text-neutral-dark-white">1987</strong>
+          <p class="text-neutral-light-grayishblue-dark text-[12px] font-light uppercase tracking-[.35em] mb-6 dark:text-neutral-dark-desaturatedblue-normal">Followers</p>
+          <p class="value-icon">
+            <img src="./images/icon-up.svg" alt="icon-up" class="opacity-0">
+            <span class="value-up value-normal"><span class="value-today">12</span> today</span>
+          </p>
+        </div>
+        <!-- end of 1 of 4 -->
+
+        <div class="card card-after relative after:bg-primary-twitter">
+          <p class="flex justify-center items-center gap-2 mb-4">
+            <img src="./images/icon-twitter.svg" alt="icon-twitter" class="social-icons">
+            <span class="text-neutral-light-grayishblue-dark font-bold text-xs dark:text-neutral-dark-desaturatedblue-normal">@nathanf</span>
+          </p>
+          <strong class="text-neutral-light-verydarkblue font-bold text-[3.5rem] block leading-[4rem] dark:text-neutral-dark-white">1044</strong>
+          <p class="text-neutral-light-grayishblue-dark text-[12px] font-light uppercase tracking-[.35em] mb-6 dark:text-neutral-dark-desaturatedblue-normal">Followers</p>
+          <p class="value-icon">
+            <img src="./images/icon-up.svg" alt="icon-up" class="opacity-0">
+            <span class="value-up value-normal"><span class="value-today">99</span> today</span>
+          </p>
+        </div>
+        <!-- end of 2 of 4 -->
+
+        <div class="card card-after relative after:bg-gradient-to-r after:from-primary-instagram-from after:to-primary-instagram-to">
+          <p class="flex justify-center items-center gap-2 mb-4">
+            <img src="./images/icon-instagram.svg" alt="icon-instagram" class="social-icons">
+            <span class="text-neutral-light-grayishblue-dark font-bold text-xs dark:text-neutral-dark-desaturatedblue-normal">@nathanf</span>
+          </p>
+          <strong class="text-neutral-light-verydarkblue font-bold text-[3.5rem] block leading-[4rem] dark:text-neutral-dark-white">11k</strong>
+          <p class="text-neutral-light-grayishblue-dark text-[12px] font-light uppercase tracking-[.35em] mb-6 dark:text-neutral-dark-desaturatedblue-normal">Followers</p>
+          <p class="value-icon">
+            <img src="./images/icon-up.svg" alt="icon-up" class="opacity-0">
+            <span class="value-up value-normal"><span class="value-today">1099</span> today</span>
+          </p>
+        </div>
+        <!-- end of 3 of 4 -->
+
+        <div class="card card-after relative after:bg-primary-youtube">
+          <p class="flex justify-center items-center gap-2 mb-4">
+            <img src="./images/icon-youtube.svg" alt="icon-youtube" class="social-icons">
+            <span class="text-neutral-light-grayishblue-dark font-bold text-xs dark:text-neutral-dark-desaturatedblue-normal">@nathanf</span>
+          </p>
+          <strong class="text-neutral-light-verydarkblue font-bold text-[3.5rem] block leading-[4rem] dark:text-neutral-dark-white">8239</strong>
+          <p class="text-neutral-light-grayishblue-dark text-[12px] font-light uppercase tracking-[.35em] mb-6 dark:text-neutral-dark-desaturatedblue-normal">Followers</p>
+          <p class="value-icon">
+            <img src="./images/icon-up.svg" alt="icon-up" class="opacity-0">
+            <span class="value-up value-normal"><span class="value-today">144</span> today</span>
+          </p>
+        </div>
+        <!-- end of 4 of 4 -->
+
+
+      </header>
+
+      <section id="overview">
+        <h2 class="text-neutral-light-grayishblue-dark dark:text-neutral-dark-white font-bold text-2xl mb-6">Overview - Today</h2>
+
+        <div class="sm:grid sm:gap-4 sm:grid-cols-2 lg:grid-cols-4">
+
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+            <div class="flex justify-between items-center pb-4">
+              <p class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Page Views</p>
+              <img class="social-icons" src="./images/icon-facebook.svg" alt="icon-facebook">
+            </div>
+            <div class="flex justify-between items-center">
+              <strong class="text-neutral-light-verydarkblue text-[2rem] dark:text-neutral-dark-white">87</strong>
+              <p class="value-icon">
+                <img src="./images/icon-up.svg" alt="icon-up" class="opacity-0">
+                <span class="value-up value-normal"><span class="overview-today">3</span>%</span>
+              </p>
+            </div> 
+          </div>
+          <!-- end of 1 of 8 -->
+
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+            <div class="flex justify-between items-center">
+              <p class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Likes</p>
+              <img class="social-icons" src="./images/icon-facebook.svg" alt="icon-facebook">
+            </div>
+            <div class="flex justify-between items-center">
+              <strong class="text-neutral-light-verydarkblue text-[2rem] dark:text-neutral-dark-white">52</strong>
+              <p class="value-icon">
+                <img src="./images/icon-down.svg" alt="icon-down" class="opacity-0">
+                <span class="value-down value-normal"><span class="overview-today">2</span>%</span>
+              </p>
+            </div>
+          </div>
+          <!-- end of 2 of 8 -->
+
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+            <div class="flex justify-between items-center">
+              <p class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Likes</p>
+              <img class="social-icons" src="./images/icon-instagram.svg" alt="icon-instagram">
+            </div>
+            <div class="flex justify-between items-center">
+              <strong class="text-neutral-light-verydarkblue text-[2rem] dark:text-neutral-dark-white">5462</strong>
+              <p class="value-icon">
+                <img src="./images/icon-up.svg" alt="icon-up" class="opacity-0">
+                <span class="value-up value-normal"><span class="overview-today">2257</span>%</span>
+              </p>
+            </div>
+          </div>
+          <!-- end of 3 of 8 -->
+
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+            <div class="flex justify-between items-center">
+              <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Profile Views</p>
+              <img class="social-icons" src="./images/icon-instagram.svg" alt="icon-instagram">
+            </div>
+            <div class="flex justify-between items-center">
+              <strong class="text-neutral-light-verydarkblue text-[2rem] dark:text-neutral-dark-white">52k</strong>
+              <p class="value-icon">
+                <img src="./images/icon-up.svg" alt="icon-up" class="opacity-0">
+                <span class="value-up value-normal"><span class="overview-today">1375</span>%</span>
+              </p>
+            </div>
+          </div>
+          <!-- end of 4 of 8 -->
+
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+            <div class="flex justify-between items-center">
+              <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Retweets</p>
+              <img class="social-icons" src="./images/icon-twitter.svg" alt="icon-twitter">
+            </div>
+            <div class="flex justify-between items-center">
+              <strong class="text-neutral-light-verydarkblue text-[2rem] dark:text-neutral-dark-white">117</strong>
+              <p class="value-icon">
+                <img src="./images/icon-up.svg" alt="icon-up" class="opacity-0">
+                <span class="value-up value-normal"><span class="overview-today">303</span>%</span>
+              </p>
+            </div>
+          </div>
+          <!-- end of 5 of 8 -->
+
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+            <div class="flex justify-between items-center">
+              <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Likes</p>
+              <img class="social-icons" src="./images/icon-twitter.svg" alt="icon-twitter">
+            </div>
+            <div class="flex justify-between items-center">
+              <strong class="text-neutral-light-verydarkblue text-[2rem] dark:text-neutral-dark-white">507</strong>
+              <p class="value-icon">
+                <img src="./images/icon-up.svg" alt="icon-up" class="opacity-0">
+                <span class="value-up value-normal"><span class="overview-today">553</span>%</span>
+              </p>
+            </div>
+          </div>
+          <!-- end of 6 of 8 -->
+
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+            <div class="flex justify-between items-center">
+              <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Likes</p>
+              <img class="social-icons" src="./images/icon-youtube.svg" alt="icon-youtube">
+            </div>
+            <div class="flex justify-between items-center">
+              <strong class="text-neutral-light-verydarkblue text-[2rem] dark:text-neutral-dark-white">107</strong>
+              <p class="value-icon">
+                <img src="./images/icon-down.svg" alt="icon-down" class="opacity-0">
+                <span class="value-down value-normal"><span class="overview-today">19</span>%</span>
+              </p>
+            </div>
+          </div>
+          <!-- end of 7 of 8 -->
+
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+            <div class="flex justify-between items-center">
+              <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Total Views</p>
+              <img class="social-icons" src="./images/icon-youtube.svg" alt="icon-youtube">
+            </div>
+            <div class="flex justify-between items-center">
+              <strong class="text-neutral-light-verydarkblue text-[2rem] dark:text-neutral-dark-white">1407</strong>
+              <p class="value-icon">
+                <img src="./images/icon-down.svg" alt="icon-down" class="opacity-0">
+                <span class="value-down value-normal"><span class="overview-today">12</span>%</span>
+              </p>
+            </div>
+          </div>
+          <!-- end of 8 of 8 -->
+
+          <!-- end of overview  -->
+        </div>
+
+      </section>
+
+    </section>
+
+  </main>
+  
+  <footer class="">
+    <p class="text-sm text-center dark:text-neutral-dark-white mb-4">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-primary-limegreen hover:text-primary-facebook">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/minibrusp" target="_blank" class="text-primary-brightred hover:text-primary-twitter">XIII</a>.
+    </p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
+  <script src="./App.js" type="module"></script>
+</body>
+</html>

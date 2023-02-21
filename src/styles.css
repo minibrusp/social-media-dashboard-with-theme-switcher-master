@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    
+    .card {
+        @apply 
+        hover:bg-neutral-light-grayishblue-light
+        bg-neutral-light-verypaleblue
+        pt-8 
+        pb-6 
+        mb-6 
+        rounded-md
+        text-center
+        cursor-pointer
+        dark:bg-neutral-dark-desaturatedblue-dark
+        dark:hover:bg-neutral-dark-desaturatedblue-lighter
+        lg:max-w-[255px]
+    }
+
+    .card-after {
+        @apply
+        after:content-[''] 
+        after:absolute 
+        after:top-0 
+        after:left-0 
+        after:h-1 
+        after:w-full 
+        after:z-10 
+        after:block 
+        after:rounded-tl-md 
+        after:rounded-tr-md
+    }
+
+    .social-icons {
+        @apply h-5 w-5
+    }
+
+    .value-icon {
+        @apply flex justify-center items-center gap-[0.25rem]
+    }
+
+    .value-up {
+        @apply text-primary-limegreen text-xs font-bold 
+    }
+
+    .value-down {
+        @apply text-primary-brightred text-xs font-bold 
+    }
+
+    .value-normal {
+        @apply text-neutral-light-verydarkblue dark:text-neutral-dark-white
+    }
+
+    
+}
