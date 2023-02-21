@@ -21,8 +21,8 @@ Light Theme | Dark Theme
 
 ### Links
 
--   Solution URL: [here]()
--   Live Site URL: [here]()
+-   Solution URL: [here](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-built-with-tailwindcss-gsap-Zex9OvT5J3)
+-   Live Site URL: [here](https://social-media-dashboard-with-theme-switcher-master-kappa.vercel.app/)
 
 ### Built with
 
