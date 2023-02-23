@@ -9,6 +9,9 @@
     
     .card {
         @apply 
+        focus-visible:bg-neutral-light-grayishblue-light
+        focus-visible:outline-none
+        focus-visible:scale-105
         hover:bg-neutral-light-grayishblue-light
         bg-neutral-light-verypaleblue
         pt-8 
@@ -19,6 +22,10 @@
         cursor-pointer
         dark:bg-neutral-dark-desaturatedblue-dark
         dark:hover:bg-neutral-dark-desaturatedblue-lighter
+        dark:focus-visible:bg-neutral-dark-desaturatedblue-lighter
+        focus-visible:transition-transform
+        focus-visible:duration-500
+        focus-visible:ease-in-out
         lg:max-w-[255px]
     }
 
