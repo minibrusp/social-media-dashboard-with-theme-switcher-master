@@ -23,9 +23,9 @@
 
         <div class="w-full pt-4 pb-6 sm:flex sm:justify-end lg:mr-px">
 
-          <label class="text-neutral-light-grayishblue-dark dark:text-neutral-dark-desaturatedblue-normal hover:dark:text-neutral-dark-white relative inline-flex items-center w-full sm:w-auto flex-row-reverse justify-between sm:justify-start sm:gap-4">
-            <input type="checkbox" id="theme-checkbox" value="" class="sr-only peer">
-            <div class="relative w-14 h-6 bg-toggle-light rounded-full peer after:translate-x-[1.7rem] peer-checked:after:translate-x-0 peer-checked:after:bg-neutral-dark-verydarkblue-bg peer-checked:after:border-neutral-dark-verydarkblue-bg after:content-[''] after:absolute after:top-[2px] after:left-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gradient-to-r peer-checked:from-toggle-dark-from peer-checked:to-toggle-dark-to hover:bg-gradient-to-r hover:from-toggle-dark-from hover:to-toggle-dark-to dark:hover:after:bg-neutral-dark-desaturatedblue-dark cursor-pointer"></div>
+          <label class="group/theme text-neutral-light-grayishblue-dark dark:text-neutral-dark-desaturatedblue-normal hover:dark:text-neutral-dark-white relative inline-flex items-center w-full focus-visible:outline-none focus-visible:text-neutral-light-verydarkblue focus-visible:dark:text-neutral-dark-white sm:w-auto flex-row-reverse justify-between sm:justify-start sm:gap-4" tabindex="0" id="theme-label">
+            <input type="checkbox" id="theme-checkbox" value="" class="sr-only peer" tabindex="-1">
+            <div class="relative w-14 h-6 bg-toggle-light rounded-full peer after:translate-x-[1.7rem] peer-checked:after:translate-x-0 peer-checked:after:bg-neutral-dark-verydarkblue-bg peer-checked:after:border-neutral-dark-verydarkblue-bg after:content-[''] after:absolute after:top-[2px] after:left-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gradient-to-r peer-checked:from-toggle-dark-from peer-checked:to-toggle-dark-to hover:bg-gradient-to-r hover:from-toggle-dark-from hover:to-toggle-dark-to dark:hover:after:bg-neutral-dark-desaturatedblue-dark dark:group-focus-visible/theme:after:bg-neutral-dark-desaturatedblue-dark cursor-pointer group-focus-visible/theme:bg-gradient-to-r group-focus-visible/theme:from-toggle-dark-from group-focus-visible/theme:to-toggle-dark-to"></div>
             <span class="inline-block text-[0.85rem] tracking-[0.03125rem] font-bold cursor-pointer">Dark Mode</span>
           </label>
 
@@ -36,7 +36,7 @@
 
     <section>
       <header class="mb-12 sm:grid sm:gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="card card-after relative after:bg-primary-facebook">
+        <div class="card card-after relative after:bg-primary-facebook" tabindex="0">
           <p class="flex justify-center items-center gap-2 mb-4">
             <img src="./images/icon-facebook.svg" alt="icon-facebook" class="social-icons">
             <span class="text-neutral-light-grayishblue-dark font-bold text-xs dark:text-neutral-dark-desaturatedblue-normal">@nathanf</span>
@@ -50,7 +50,7 @@
         </div>
         <!-- end of 1 of 4 -->
 
-        <div class="card card-after relative after:bg-primary-twitter">
+        <div class="card card-after relative after:bg-primary-twitter" tabindex="0">
           <p class="flex justify-center items-center gap-2 mb-4">
             <img src="./images/icon-twitter.svg" alt="icon-twitter" class="social-icons">
             <span class="text-neutral-light-grayishblue-dark font-bold text-xs dark:text-neutral-dark-desaturatedblue-normal">@nathanf</span>
@@ -64,7 +64,7 @@
         </div>
         <!-- end of 2 of 4 -->
 
-        <div class="card card-after relative after:bg-gradient-to-r after:from-primary-instagram-from after:to-primary-instagram-to">
+        <div class="card card-after relative after:bg-gradient-to-r after:from-primary-instagram-from after:to-primary-instagram-to" tabindex="0">
           <p class="flex justify-center items-center gap-2 mb-4">
             <img src="./images/icon-instagram.svg" alt="icon-instagram" class="social-icons">
             <span class="text-neutral-light-grayishblue-dark font-bold text-xs dark:text-neutral-dark-desaturatedblue-normal">@nathanf</span>
@@ -78,7 +78,7 @@
         </div>
         <!-- end of 3 of 4 -->
 
-        <div class="card card-after relative after:bg-primary-youtube">
+        <div class="card card-after relative after:bg-primary-youtube" tabindex="0">
           <p class="flex justify-center items-center gap-2 mb-4">
             <img src="./images/icon-youtube.svg" alt="icon-youtube" class="social-icons">
             <span class="text-neutral-light-grayishblue-dark font-bold text-xs dark:text-neutral-dark-desaturatedblue-normal">@nathanf</span>
@@ -100,7 +100,7 @@
 
         <div class="sm:grid sm:gap-4 sm:grid-cols-2 lg:grid-cols-4">
 
-          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4" tabindex="0">
             <div class="flex justify-between items-center pb-4">
               <p class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Page Views</p>
               <img class="social-icons" src="./images/icon-facebook.svg" alt="icon-facebook">
@@ -115,7 +115,7 @@
           </div>
           <!-- end of 1 of 8 -->
 
-          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4" tabindex="0">
             <div class="flex justify-between items-center">
               <p class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Likes</p>
               <img class="social-icons" src="./images/icon-facebook.svg" alt="icon-facebook">
@@ -130,7 +130,7 @@
           </div>
           <!-- end of 2 of 8 -->
 
-          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4" tabindex="0">
             <div class="flex justify-between items-center">
               <p class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Likes</p>
               <img class="social-icons" src="./images/icon-instagram.svg" alt="icon-instagram">
@@ -145,7 +145,7 @@
           </div>
           <!-- end of 3 of 8 -->
 
-          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4" tabindex="0">
             <div class="flex justify-between items-center">
               <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Profile Views</p>
               <img class="social-icons" src="./images/icon-instagram.svg" alt="icon-instagram">
@@ -160,7 +160,7 @@
           </div>
           <!-- end of 4 of 8 -->
 
-          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4" tabindex="0">
             <div class="flex justify-between items-center">
               <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Retweets</p>
               <img class="social-icons" src="./images/icon-twitter.svg" alt="icon-twitter">
@@ -175,7 +175,7 @@
           </div>
           <!-- end of 5 of 8 -->
 
-          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4" tabindex="0">
             <div class="flex justify-between items-center">
               <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Likes</p>
               <img class="social-icons" src="./images/icon-twitter.svg" alt="icon-twitter">
@@ -190,7 +190,7 @@
           </div>
           <!-- end of 6 of 8 -->
 
-          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4" tabindex="0">
             <div class="flex justify-between items-center">
               <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Likes</p>
               <img class="social-icons" src="./images/icon-youtube.svg" alt="icon-youtube">
@@ -205,7 +205,7 @@
           </div>
           <!-- end of 7 of 8 -->
 
-          <div class="card px-6 pt-[1.5rem] pb-4 mb-4">
+          <div class="card px-6 pt-[1.5rem] pb-4 mb-4" tabindex="0">
             <div class="flex justify-between items-center">
               <p  class="text-neutral-light-grayishblue-dark font-bold text-sm dark:text-neutral-dark-desaturatedblue-normal">Total Views</p>
               <img class="social-icons" src="./images/icon-youtube.svg" alt="icon-youtube">
